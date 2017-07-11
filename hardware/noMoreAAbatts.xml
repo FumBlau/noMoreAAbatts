@@ -1,0 +1,805 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="D">
+  <design>
+    <source>/home/arturo/Documentos/fumblau/noMoreAAbatts/hardware/noMoreAAbatts.sch</source>
+    <date>mar 11 jul 2017 10:39:03 CEST</date>
+    <tool>Eeschema 4.0.6-e0-6349~53~ubuntu16.04.1</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>noMoreAAbatts.sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="IC1">
+      <value>MCP73831/2</value>
+      <footprint>SeeedOPL-IC-2016:SOT-23-5</footprint>
+      <fields>
+        <field name="Manufacturer">Microchip Technology</field>
+      </fields>
+      <libsource lib="microchip-ic" part="MCP73831/2"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595CE055</tstamp>
+    </comp>
+    <comp ref="J1">
+      <value>MICROUSB</value>
+      <footprint>SeeedOPL-Connector-2016:MICRO-USB5+6P-SMD-0.65-AB</footprint>
+      <libsource lib="connector" part="MICROUSB"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595CE100</tstamp>
+    </comp>
+    <comp ref="BT1">
+      <value>Battery_Cell</value>
+      <footprint>fumblau:18650_holder</footprint>
+      <libsource lib="device" part="Battery_Cell"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>595CE169</tstamp>
+    </comp>
+    <comp ref="IC2">
+      <value>PAM242X</value>
+      <footprint>sop:SOP8_ep</footprint>
+      <datasheet>http://www.mouser.es/ProductDetail/Diodes-Incorporated/PAM2421AECADJR/?qs=sGAEpiMZZMtitjHzVIkrqUPXLPgSDBplNRuOwh7xKRY%3d</datasheet>
+      <fields>
+        <field name="Manufacturer">Diodes Inc</field>
+      </fields>
+      <libsource lib="diode-inc-ic" part="PAM242X"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59634262</tstamp>
+    </comp>
+    <comp ref="C4">
+      <value>10UF-25V</value>
+      <footprint>SeeedOPL-Capacitor-2016:C0603</footprint>
+      <fields>
+        <field name="MPN">CC0805KKX5R8BB106</field>
+        <field name="SKU">302010178</field>
+      </fields>
+      <libsource lib="SeeedOPL-Capacitor-2016" part="CERAMIC-10UF-25V-10%-X5R_0805_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59634741</tstamp>
+    </comp>
+    <comp ref="C10">
+      <value>10UF-25V</value>
+      <footprint>SeeedOPL-Capacitor-2016:C0603</footprint>
+      <fields>
+        <field name="MPN">CC0805KKX5R8BB106</field>
+        <field name="SKU">302010178</field>
+      </fields>
+      <libsource lib="SeeedOPL-Capacitor-2016" part="CERAMIC-10UF-25V-10%-X5R_0805_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596348BC</tstamp>
+    </comp>
+    <comp ref="C9">
+      <value>470uF_25V</value>
+      <footprint>fumblau:UWT1E471_10x10</footprint>
+      <datasheet>http://www.mouser.es/ProductDetail/Nichicon/UWT1E471MNL1GS/?qs=sGAEpiMZZMtZ1n0r9vR22RxmuzErLMSVW18RYFFvnLk%3d</datasheet>
+      <fields>
+        <field name="MPN">UWT1E471MNL1GS</field>
+        <field name="SKU">123</field>
+      </fields>
+      <libsource lib="SeeedOPL-Capacitor-2016" part="TANTALUM-SMD-470UF-6.3V_AVX-D_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596348E6</tstamp>
+    </comp>
+    <comp ref="L1">
+      <value>6.8UH-2.5A</value>
+      <footprint>fumblau:ASPI-4030S_4x4</footprint>
+      <datasheet>http://www.mouser.es/ProductDetail/ABRACON/ASPI-4030S-6R8M-T/?qs=sGAEpiMZZMsg%252by3WlYCkU2vsZPp70J0adjMm5nZaVPw%3d</datasheet>
+      <fields>
+        <field name="MPN">ASPI-4030S-6R8M-T</field>
+        <field name="SKU">321</field>
+      </fields>
+      <libsource lib="SeeedOPL-Inductor-2016" part="SMD-INDUCTOR-10UH-225MA-10%_0806_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59634B4F</tstamp>
+    </comp>
+    <comp ref="C5">
+      <value>1UF</value>
+      <footprint>SeeedOPL-Capacitor-2016:C0603</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX7R8BB105</field>
+        <field name="SKU">302010139</field>
+      </fields>
+      <libsource lib="SeeedOPL-Capacitor-2016" part="CERAMIC-1UF-25V-10%-X7R_0603_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59634C94</tstamp>
+    </comp>
+    <comp ref="C7">
+      <value>47PF</value>
+      <footprint>SeeedOPL-Capacitor-2016:C0603</footprint>
+      <fields>
+        <field name="MPN">CC0402JRNPO9BN470</field>
+        <field name="SKU">302010007</field>
+      </fields>
+      <libsource lib="SeeedOPL-Capacitor-2016" part="CERAMIC-47PF-50V-5%-NP0_0402_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59634D0F</tstamp>
+    </comp>
+    <comp ref="C6">
+      <value>2.2NF</value>
+      <footprint>SeeedOPL-Capacitor-2016:C0603</footprint>
+      <fields>
+        <field name="MPN">CC0402KRX7R9BB222</field>
+        <field name="SKU">302010022</field>
+      </fields>
+      <libsource lib="SeeedOPL-Capacitor-2016" part="CERAMIC-2.2NF-50V-10%-X7R_0402_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59634D68</tstamp>
+    </comp>
+    <comp ref="R3">
+      <value>51K</value>
+      <footprint>SeeedOPL-Resistor-2016:R0603</footprint>
+      <fields>
+        <field name="MPN">RC0603JR-0751KL</field>
+        <field name="SKU">301010145</field>
+      </fields>
+      <libsource lib="SeeedOPL-Resistor-2016" part="SMD-RES-51K-5%-1_10W_0603_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59634DC9</tstamp>
+    </comp>
+    <comp ref="C8">
+      <value>10NF</value>
+      <footprint>SeeedOPL-Capacitor-2016:C0603</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX7R9BB103</field>
+        <field name="SKU">302010140</field>
+      </fields>
+      <libsource lib="SeeedOPL-Capacitor-2016" part="CERAMIC-10NF-50V-10%-X7R_0603_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59634E5F</tstamp>
+    </comp>
+    <comp ref="D2">
+      <value>214AA</value>
+      <footprint>SeeedOPL-Diode-2016:DO-214AA</footprint>
+      <fields>
+        <field name="MPN">SS54B</field>
+        <field name="SKU">304020021</field>
+      </fields>
+      <libsource lib="SeeedOPL-Diode-2016" part="SMD-DIODE-SCHOTTKY-28V-5A_DO-214AA_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59634F6C</tstamp>
+    </comp>
+    <comp ref="R5">
+      <value>10K</value>
+      <footprint>SeeedOPL-Resistor-2016:R0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="SKU">301010299</field>
+      </fields>
+      <libsource lib="SeeedOPL-Resistor-2016" part="SMD-RES-10K-1%-1_10W_0603_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596351BC</tstamp>
+    </comp>
+    <comp ref="C3">
+      <value>470uF_25V</value>
+      <footprint>fumblau:UWT1E471_10x10</footprint>
+      <datasheet>http://www.mouser.es/ProductDetail/Nichicon/UWT1E471MNL1GS/?qs=sGAEpiMZZMtZ1n0r9vR22RxmuzErLMSVW18RYFFvnLk%3d</datasheet>
+      <fields>
+        <field name="MPN">UWT1E471MNL1GS</field>
+        <field name="SKU">123</field>
+      </fields>
+      <libsource lib="SeeedOPL-Capacitor-2016" part="TANTALUM-SMD-470UF-6.3V_AVX-D_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596356E8</tstamp>
+    </comp>
+    <comp ref="R4">
+      <value>30K</value>
+      <footprint>SeeedOPL-Resistor-2016:R0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="SKU">301010299</field>
+      </fields>
+      <libsource lib="SeeedOPL-Resistor-2016" part="SMD-RES-10K-1%-1_10W_0603_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59636D25</tstamp>
+    </comp>
+    <comp ref="J2">
+      <value>5V</value>
+      <footprint>SeeedOPL-Connector-2016:H2-2.54</footprint>
+      <fields>
+        <field name="MPN">P125-1102A0BS116A1</field>
+        <field name="SKU">320020016</field>
+      </fields>
+      <libsource lib="SeeedOPL-Connector-2016" part="DIP-BLACK-MALE-HEADER-VERT_2P-2.54_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59639F04</tstamp>
+    </comp>
+    <comp ref="J3">
+      <value>12V</value>
+      <footprint>SeeedOPL-Connector-2016:H2-2.54</footprint>
+      <fields>
+        <field name="MPN">P125-1102A0BS116A1</field>
+        <field name="SKU">320020016</field>
+      </fields>
+      <libsource lib="SeeedOPL-Connector-2016" part="DIP-BLACK-MALE-HEADER-VERT_2P-2.54_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59639F78</tstamp>
+    </comp>
+    <comp ref="C1">
+      <value>4.7UF</value>
+      <footprint>SeeedOPL-Capacitor-2016:C0603</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX5R6BB475</field>
+        <field name="SKU">302010111</field>
+      </fields>
+      <libsource lib="SeeedOPL-Capacitor-2016" part="CERAMIC-4.7UF-10V-10%-X5R_0603_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5963BD82</tstamp>
+    </comp>
+    <comp ref="C2">
+      <value>4.7UF</value>
+      <footprint>SeeedOPL-Capacitor-2016:C0603</footprint>
+      <fields>
+        <field name="MPN">CC0603KRX5R6BB475</field>
+        <field name="SKU">302010111</field>
+      </fields>
+      <libsource lib="SeeedOPL-Capacitor-2016" part="CERAMIC-4.7UF-10V-10%-X5R_0603_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5963BE4F</tstamp>
+    </comp>
+    <comp ref="R2">
+      <value>2K</value>
+      <footprint>SeeedOPL-Resistor-2016:R0603</footprint>
+      <fields>
+        <field name="MPN">RC0603JR-072K2L</field>
+        <field name="SKU">301010124</field>
+      </fields>
+      <libsource lib="SeeedOPL-Resistor-2016" part="SMD-RES-2.2K-5%-1_10W_0603_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5963C2EA</tstamp>
+    </comp>
+    <comp ref="R1">
+      <value>470R</value>
+      <footprint>SeeedOPL-Resistor-2016:R0603</footprint>
+      <fields>
+        <field name="MPN">RC0603JR-07470RL</field>
+        <field name="SKU">301010088</field>
+      </fields>
+      <libsource lib="SeeedOPL-Resistor-2016" part="SMD-RES-470R-5%-1_10W_0603_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5963C412</tstamp>
+    </comp>
+    <comp ref="D1">
+      <value>red</value>
+      <footprint>SeeedOPL-LED-2016:LED-0603</footprint>
+      <fields>
+        <field name="MPN">19-217-R6C-AL1M2VY-3T</field>
+        <field name="SKU">304090042</field>
+      </fields>
+      <libsource lib="SeeedOPL-LED-2016" part="LED-SMD-RED-DIFFUSED_0603_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5963C689</tstamp>
+    </comp>
+    <comp ref="U1">
+      <value>LM1117-3.3</value>
+      <footprint>sot:SOT223</footprint>
+      <libsource lib="regul" part="LM1117-3.3"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>5963E18A</tstamp>
+    </comp>
+    <comp ref="J4">
+      <value>3P</value>
+      <footprint>SeeedOPL-Connector-2016:H3-2.54</footprint>
+      <fields>
+        <field name="SKU">320020061</field>
+      </fields>
+      <libsource lib="SeeedOPL-Connector-2016" part="DIP-BLACK-MALE-HEADER-R_A_3P-2.54-90D_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>596401F4</tstamp>
+    </comp>
+    <comp ref="J5">
+      <value>out</value>
+      <footprint>SeeedOPL-Connector-2016:H2-2.54</footprint>
+      <fields>
+        <field name="MPN">P125-1102A0BS116A1</field>
+        <field name="SKU">320020016</field>
+      </fields>
+      <libsource lib="SeeedOPL-Connector-2016" part="DIP-BLACK-MALE-HEADER-VERT_2P-2.54_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59641A2C</tstamp>
+    </comp>
+    <comp ref="R6">
+      <value>85K</value>
+      <footprint>SeeedOPL-Resistor-2016:R0603</footprint>
+      <fields>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="SKU">301010299</field>
+      </fields>
+      <libsource lib="SeeedOPL-Resistor-2016" part="SMD-RES-10K-1%-1_10W_0603_"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamp>59645F3C</tstamp>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="device" part="Battery_Cell">
+      <description>single battery cell</description>
+      <fields>
+        <field name="Reference">BT</field>
+        <field name="Value">Battery_Cell</field>
+      </fields>
+      <pins>
+        <pin num="1" name="+" type="passive"/>
+        <pin num="2" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Capacitor-2016" part="CERAMIC-10NF-50V-10%-X7R_0603_">
+      <footprints>
+        <fp>*C0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CERAMIC-10NF-50V-10%-X7R_0603_</field>
+        <field name="MPN">CC0603KRX7R9BB103</field>
+        <field name="SKU">302010140</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Capacitor-2016" part="CERAMIC-10UF-25V-10%-X5R_0805_">
+      <footprints>
+        <fp>*C0805*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CERAMIC-10UF-25V-10%-X5R_0805_</field>
+        <field name="MPN">CC0805KKX5R8BB106</field>
+        <field name="SKU">302010178</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Capacitor-2016" part="CERAMIC-1UF-25V-10%-X7R_0603_">
+      <footprints>
+        <fp>*C0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CERAMIC-1UF-25V-10%-X7R_0603_</field>
+        <field name="MPN">CC0603KRX7R8BB105</field>
+        <field name="SKU">302010139</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Capacitor-2016" part="CERAMIC-2.2NF-50V-10%-X7R_0402_">
+      <footprints>
+        <fp>*C0402*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CERAMIC-2.2NF-50V-10%-X7R_0402_</field>
+        <field name="MPN">CC0402KRX7R9BB222</field>
+        <field name="SKU">302010022</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Capacitor-2016" part="CERAMIC-4.7UF-10V-10%-X5R_0603_">
+      <footprints>
+        <fp>*C0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CERAMIC-4.7UF-10V-10%-X5R_0603_</field>
+        <field name="MPN">CC0603KRX5R6BB475</field>
+        <field name="SKU">302010111</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Capacitor-2016" part="CERAMIC-47PF-50V-5%-NP0_0402_">
+      <footprints>
+        <fp>*C0402*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">CERAMIC-47PF-50V-5%-NP0_0402_</field>
+        <field name="MPN">CC0402JRNPO9BN470</field>
+        <field name="SKU">302010007</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Connector-2016" part="DIP-BLACK-MALE-HEADER-R_A_3P-2.54-90D_">
+      <footprints>
+        <fp>*H3-2.54-90D-MALE*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DIP-BLACK-MALE-HEADER-R_A_3P-2.54-90D_</field>
+        <field name="SKU">320020061</field>
+      </fields>
+      <pins>
+        <pin num="1" name="P$1" type="BiDi"/>
+        <pin num="2" name="P$2" type="BiDi"/>
+        <pin num="3" name="P$3" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Connector-2016" part="DIP-BLACK-MALE-HEADER-VERT_2P-2.54_">
+      <footprints>
+        <fp>*H2-2.54*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">DIP-BLACK-MALE-HEADER-VERT_2P-2.54_</field>
+        <field name="MPN">P125-1102A0BS116A1</field>
+        <field name="SKU">320020016</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="BiDi"/>
+        <pin num="2" name="2" type="BiDi"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-LED-2016" part="LED-SMD-RED-DIFFUSED_0603_">
+      <footprints>
+        <fp>*LED-0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LED-SMD-RED-DIFFUSED_0603_</field>
+        <field name="MPN">19-217-R6C-AL1M2VY-3T</field>
+        <field name="SKU">304090042</field>
+      </fields>
+      <pins>
+        <pin num="+" name="+" type="passive"/>
+        <pin num="-" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="regul" part="LM1117-ADJ">
+      <aliases>
+        <alias>LM1117-1.8</alias>
+        <alias>LM1117-2.5</alias>
+        <alias>LM1117-3.3</alias>
+        <alias>LM1117-5.0</alias>
+      </aliases>
+      <description>800mA Low-Dropout Linear Regulator, adjustable output</description>
+      <docs>http://www.ti.com/lit/ds/symlink/lm1117.pdf</docs>
+      <footprints>
+        <fp>SOT-223*</fp>
+        <fp>TO-263*</fp>
+        <fp>TO-252*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM1117-ADJ</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND/ADJ" type="power_in"/>
+        <pin num="2" name="VO" type="power_out"/>
+        <pin num="3" name="VI" type="power_in"/>
+        <pin num="4" name="VO" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="microchip-ic" part="MCP73831/2">
+      <description>MCP73831/2 single-cell Li-ion / Li-polymer charger IC with status pin</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/20001984F.pdf</docs>
+      <footprints>
+        <fp>SOT23-5</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">MCP73831/2</field>
+        <field name="Manufacturer">Microchip Technology</field>
+      </fields>
+      <pins>
+        <pin num="1" name="STAT" type="output"/>
+        <pin num="2" name="VSS" type="power_in"/>
+        <pin num="3" name="VBAT" type="power_in"/>
+        <pin num="4" name="VDD" type="power_in"/>
+        <pin num="5" name="PROG" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="connector" part="MICROUSB">
+      <description>MicroUSB port</description>
+      <docs>http://www.sparkfun.com/datasheets/Prototyping/Micro-USB.pdf</docs>
+      <footprints>
+        <fp>MICROUSB_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">MICROUSB</field>
+      </fields>
+      <pins>
+        <pin num="1" name="VBUS" type="power_out"/>
+        <pin num="2" name="D-" type="BiDi"/>
+        <pin num="3" name="D+" type="BiDi"/>
+        <pin num="4" name="NC" type="NotConnected"/>
+        <pin num="5" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="diode-inc-ic" part="PAM242X">
+      <description>PAM24X 3A/4.5A/5.5A fixed frequency, current-mode PWM step-up DC/DC converter</description>
+      <docs>http://www.diodes.com/datasheets/PAM242x.pdf</docs>
+      <footprints>
+        <fp>SOP8_ep</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">IC</field>
+        <field name="Value">PAM242X</field>
+        <field name="Manufacturer">Diodes Inc</field>
+      </fields>
+      <pins>
+        <pin num="0" name="PAD" type="passive"/>
+        <pin num="1" name="PGND" type="power_in"/>
+        <pin num="2" name="VIN" type="power_in"/>
+        <pin num="3" name="EN" type="input"/>
+        <pin num="4" name="COMP" type="passive"/>
+        <pin num="5" name="AGND" type="power_in"/>
+        <pin num="6" name="FB" type="passive"/>
+        <pin num="7" name="SS" type="passive"/>
+        <pin num="8" name="SW" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Diode-2016" part="SMD-DIODE-SCHOTTKY-28V-5A_DO-214AA_">
+      <footprints>
+        <fp>*DO-214AA*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">SMD-DIODE-SCHOTTKY-28V-5A_DO-214AA_</field>
+        <field name="MPN">SS54B</field>
+        <field name="SKU">304020021</field>
+      </fields>
+      <pins>
+        <pin num="+" name="+" type="passive"/>
+        <pin num="-" name="-" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Inductor-2016" part="SMD-INDUCTOR-10UH-225MA-10%_0806_">
+      <footprints>
+        <fp>*L0806*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">L</field>
+        <field name="Value">SMD-INDUCTOR-10UH-225MA-10%_0806_</field>
+        <field name="MPN">LQH2MCN100K02L</field>
+        <field name="SKU">303010042</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Resistor-2016" part="SMD-RES-10K-1%-1_10W_0603_">
+      <footprints>
+        <fp>*R0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">SMD-RES-10K-1%-1_10W_0603_</field>
+        <field name="MPN">RC0603FR-0710KL</field>
+        <field name="SKU">301010299</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Resistor-2016" part="SMD-RES-2.2K-5%-1_10W_0603_">
+      <footprints>
+        <fp>*R0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">SMD-RES-2.2K-5%-1_10W_0603_</field>
+        <field name="MPN">RC0603JR-072K2L</field>
+        <field name="SKU">301010124</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Resistor-2016" part="SMD-RES-470R-5%-1_10W_0603_">
+      <footprints>
+        <fp>*R0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">SMD-RES-470R-5%-1_10W_0603_</field>
+        <field name="MPN">RC0603JR-07470RL</field>
+        <field name="SKU">301010088</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Resistor-2016" part="SMD-RES-51K-5%-1_10W_0603_">
+      <footprints>
+        <fp>*R0603*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">SMD-RES-51K-5%-1_10W_0603_</field>
+        <field name="MPN">RC0603JR-0751KL</field>
+        <field name="SKU">301010145</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="SeeedOPL-Capacitor-2016" part="TANTALUM-SMD-470UF-6.3V_AVX-D_">
+      <footprints>
+        <fp>*AVX-D*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">TANTALUM-SMD-470UF-6.3V_AVX-D_</field>
+        <field name="MPN">TAJD477_006#NJ</field>
+        <field name="SKU">302020027</field>
+      </fields>
+      <pins>
+        <pin num="+" name="+" type="passive"/>
+        <pin num="-" name="-" type="passive"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="device">
+      <uri>/usr/share/kicad/library/device.lib</uri>
+    </library>
+    <library logical="regul">
+      <uri>/usr/share/kicad/library/regul.lib</uri>
+    </library>
+    <library logical="diode-inc-ic">
+      <uri>/home/arturo/Documentos/fumblau/kicad_libs/kicad-lib/components/diode-inc-ic.lib</uri>
+    </library>
+    <library logical="connector">
+      <uri>/home/arturo/Documentos/fumblau/kicad_libs/kicad-lib/components/connector.lib</uri>
+    </library>
+    <library logical="microchip-ic">
+      <uri>/home/arturo/Documentos/fumblau/kicad_libs/kicad-lib/components/microchip-ic.lib</uri>
+    </library>
+    <library logical="SeeedOPL-Capacitor-2016">
+      <uri>/home/arturo/Documentos/fumblau/kicad_libs/OPL_Kicad_Library/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Capacitor-2016.lib</uri>
+    </library>
+    <library logical="SeeedOPL-Connector-2016">
+      <uri>/home/arturo/Documentos/fumblau/kicad_libs/OPL_Kicad_Library/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Connector-2016.lib</uri>
+    </library>
+    <library logical="SeeedOPL-Diode-2016">
+      <uri>/home/arturo/Documentos/fumblau/kicad_libs/OPL_Kicad_Library/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Diode-2016.lib</uri>
+    </library>
+    <library logical="SeeedOPL-Inductor-2016">
+      <uri>/home/arturo/Documentos/fumblau/kicad_libs/OPL_Kicad_Library/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Inductor-2016.lib</uri>
+    </library>
+    <library logical="SeeedOPL-Resistor-2016">
+      <uri>/home/arturo/Documentos/fumblau/kicad_libs/OPL_Kicad_Library/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-Resistor-2016.lib</uri>
+    </library>
+    <library logical="SeeedOPL-LED-2016">
+      <uri>/home/arturo/Documentos/fumblau/kicad_libs/OPL_Kicad_Library/SeeedOPL for Kicad-alpha-2017-01-02/SeeedOPL-LED-2016.lib</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="GND">
+      <node ref="C9" pin="-"/>
+      <node ref="IC2" pin="1"/>
+      <node ref="IC2" pin="0"/>
+      <node ref="J1" pin="5"/>
+      <node ref="IC1" pin="2"/>
+      <node ref="BT1" pin="2"/>
+      <node ref="C3" pin="-"/>
+      <node ref="R5" pin="2"/>
+      <node ref="C8" pin="2"/>
+      <node ref="C4" pin="2"/>
+      <node ref="C7" pin="2"/>
+      <node ref="C5" pin="2"/>
+      <node ref="IC2" pin="5"/>
+      <node ref="C10" pin="2"/>
+      <node ref="U1" pin="1"/>
+      <node ref="J5" pin="2"/>
+      <node ref="C6" pin="2"/>
+      <node ref="C2" pin="2"/>
+      <node ref="C1" pin="2"/>
+      <node ref="D1" pin="-"/>
+      <node ref="R2" pin="2"/>
+    </net>
+    <net code="2" name="Net-(IC1-Pad5)">
+      <node ref="R2" pin="1"/>
+      <node ref="IC1" pin="5"/>
+    </net>
+    <net code="3" name="Net-(IC1-Pad1)">
+      <node ref="IC1" pin="1"/>
+      <node ref="R1" pin="1"/>
+    </net>
+    <net code="4" name="Net-(D1-Pad+)">
+      <node ref="R1" pin="2"/>
+      <node ref="D1" pin="+"/>
+    </net>
+    <net code="5" name="Net-(J2-Pad2)">
+      <node ref="R4" pin="2"/>
+      <node ref="J2" pin="2"/>
+    </net>
+    <net code="6" name="/fb">
+      <node ref="R5" pin="1"/>
+      <node ref="J3" pin="2"/>
+      <node ref="J2" pin="1"/>
+      <node ref="IC2" pin="6"/>
+    </net>
+    <net code="7" name="Net-(C1-Pad1)">
+      <node ref="J1" pin="1"/>
+      <node ref="IC1" pin="4"/>
+      <node ref="C1" pin="1"/>
+    </net>
+    <net code="8" name="/3v3">
+      <node ref="U1" pin="4"/>
+      <node ref="U1" pin="2"/>
+      <node ref="J4" pin="3"/>
+    </net>
+    <net code="9" name="/Vout">
+      <node ref="J4" pin="2"/>
+      <node ref="J5" pin="1"/>
+    </net>
+    <net code="10" name="Net-(J1-Pad2)">
+      <node ref="J1" pin="2"/>
+    </net>
+    <net code="11" name="Net-(J1-Pad3)">
+      <node ref="J1" pin="3"/>
+    </net>
+    <net code="12" name="Net-(J3-Pad1)">
+      <node ref="J3" pin="1"/>
+      <node ref="R6" pin="2"/>
+    </net>
+    <net code="13" name="/Vbat">
+      <node ref="IC2" pin="2"/>
+      <node ref="IC2" pin="3"/>
+      <node ref="BT1" pin="1"/>
+      <node ref="C4" pin="1"/>
+      <node ref="L1" pin="1"/>
+      <node ref="C5" pin="1"/>
+      <node ref="U1" pin="3"/>
+      <node ref="C2" pin="1"/>
+      <node ref="IC1" pin="3"/>
+      <node ref="C3" pin="+"/>
+    </net>
+    <net code="14" name="/Vboost">
+      <node ref="C10" pin="1"/>
+      <node ref="C9" pin="+"/>
+      <node ref="J4" pin="1"/>
+      <node ref="R4" pin="1"/>
+      <node ref="D2" pin="-"/>
+      <node ref="R6" pin="1"/>
+    </net>
+    <net code="15" name="Net-(C6-Pad1)">
+      <node ref="C6" pin="1"/>
+      <node ref="R3" pin="2"/>
+    </net>
+    <net code="16" name="Net-(J1-Pad4)">
+      <node ref="J1" pin="4"/>
+    </net>
+    <net code="17" name="Net-(C8-Pad1)">
+      <node ref="C8" pin="1"/>
+      <node ref="IC2" pin="7"/>
+    </net>
+    <net code="18" name="Net-(D2-Pad+)">
+      <node ref="IC2" pin="8"/>
+      <node ref="L1" pin="2"/>
+      <node ref="D2" pin="+"/>
+    </net>
+    <net code="19" name="Net-(C7-Pad1)">
+      <node ref="C7" pin="1"/>
+      <node ref="R3" pin="1"/>
+      <node ref="IC2" pin="4"/>
+    </net>
+  </nets>
+</export>
